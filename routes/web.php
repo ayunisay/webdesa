@@ -6,7 +6,11 @@ use App\Http\Controllers\RtRwController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\DashboardController;
 
-        Route::get('/user-dashboard', [DashboardController::class, 'dashboardUser'])->name('dashboardUser');
+Route::get('/', function () {
+    return redirect('/user-dashboard');
+});
+
+Route::get('/user-dashboard', [DashboardController::class, 'dashboardUser'])->name('dashboardUser');
 
         Route::get('/posyandu', [PosyanduController::class, 'index'])->name('posyandu');
 
