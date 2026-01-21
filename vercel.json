@@ -5,8 +5,7 @@
     "functions": {
         "api/index.php": {
             "runtime": "vercel-php@0.7.1",
-            "memory": 512,
-            "timeout": 60
+            "memory": 512
         }
     },
     "routes": [
