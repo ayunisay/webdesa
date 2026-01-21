@@ -1,0 +1,10 @@
+node_modules
+/storage/framework/views
+/storage/cache
+.git
+.gitignore
+.env.local
+.env.*.local
+tests
+.phpunit.cache
+.phpactor.json
